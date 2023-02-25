@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>ETICian Quizz</title>
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="container">
+        <h1 class="title">ETICian Quizz</h1>
+        <div class="card">
+          <div class="card-head">
+            <span class="big">Bienvenue !</span>
+          </div>
+          <hr />
+          <div class="card-body">
+            <p>Cette Epreuve coute <strong>5 points</strong></p>
+            <p class="text-center">
+              Merci à l'équipe ETICian Camp d'avoir organisé cet evenement
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="questions">
+      <div class="card">
+        <div class="card-head">
+          <span class="normal">Question n°1</span>
+          <span class="question">Quel année a été fondé ETIC ?</span>
+        </div>
+        <hr />
+        <div class="card-body">
+          <input type="number" class="input-answer" placeholder="" />
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span class="normal">Question n°2</span>
+          <span class="question"
+            >Quel est la meilleure Structure de ETIC ?</span
+          >
+        </div>
+        <hr />
+        <div class="card-body">
+          <select class="select-answer">
+            <option value="" selected disabled>Choisissez une structure</option>
+            <option value="RH">Ressources humaines</option>
+            <option value="DEV">Developpement</option>
+            <option value="REL">Relations Externes et Logistiques</option>
+            <option value="COMM">Communication & Multimédia</option>
+          </select>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head">
+          <span class="normal">Question n°3</span>
+          <span class="question">Qui est le meilleur ETICien ?</span>
+        </div>
+        <hr />
+        <div class="card-body">
+          <select class="select-answer">
+            <option value="" selected disabled>Choisissez un ETICien</option>
+            <option value="SAMI">SAMI</option>
+            <option value="MAYSSA">MAYSSA</option>
+            <option value="SARAH">SaARAH</option>
+            <option value="ANISS">ANISS</option>
+            <option value="SAMY">SAMY</option>
+            <option value="LOUBNA">LOUBNA</option>
+            <option value="RAOUF">RAOUF</option>
+            <option value="KAMYL">KAMYL</option>
+            <option value="YOUNES">YOUNES</option>
+          </select>
+        </div>
+      </div>
+      <button class="button-answer">Soumettre</button>
+    </div>
+  </body>
+</html>
